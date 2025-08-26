@@ -22,6 +22,6 @@ for root, _, files in os.walk(os.getcwd()):
 			im = Image.open(fullname).convert("RGB")
 			im.save(caminho + "/" + filename + ".jpg","jpeg")
 
-print('\nDone!')
+print('\nDone!!')
      
 
